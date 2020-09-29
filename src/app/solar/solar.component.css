@@ -1,0 +1,157 @@
+#body{
+	min-height:100vh;
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	align-items:center;
+	}
+	.spinner-box{
+	width:300px;
+	height:300px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	background-color: transparent;
+	}
+	.solarsystem{
+	width:250px;
+	height:250px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	}
+	.orbit{
+	position:relative;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:solid 1px #aaa;
+	 border-radius: 50%;
+	}
+	.sun{
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	background-color:#F7FE2E;
+	
+	}
+	.mercury-orbit{
+	width:100px;
+	height:100px;
+	animation: spin 175s linear 0s infinite;
+	}
+	.venus-orbit
+	{
+	width:150px;
+	height:150px;
+	animation: spin 155s linear 0s infinite;
+	}
+	.earth-orbit{
+	width:200px;
+	height:200px;
+	animation: spin 135s linear 0s infinite;
+	}
+	.mars-orbit{
+	width:250px;
+	height:250px;
+	animation: spin 115s linear 0s infinite;
+	}
+	.jupiter-orbit{
+	width:300px;
+	height:300px;
+	animation: spin 95s linear 0s infinite;
+	}
+	.saturn-orbit{
+	width:350px;
+	height:350px;
+	animation: spin 75s linear 0s infinite;
+	}
+	.uranus-orbit{
+	width:400px;
+	height:400px;
+	animation: spin 145s linear 0s infinite;
+	}
+	.neptune-orbit{
+	width:450px;
+	height:450px;
+	animation: spin 125s linear 0s infinite;
+	}
+	.pluto-orbit{
+	width:500px;
+	height:500px;
+	animation: spin 105s linear 0s infinite;
+	}
+	.planet{
+	position:absolute;
+	top:-5px;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	
+	}
+	.saturn-ring
+	{
+	position:absolute;
+	top:-5px;
+	width:30px;
+	border-radius:50%;
+	border-bottom-width:2px;
+	background-color:transparent;
+	border-color:white;
+	transform:rotate(15deg);
+	}
+	.mercury
+	{
+	background-color:#6E6E6E;
+	}
+	.venus
+	{
+	background-color:#F6F5C0;
+	}
+	.earth
+	{
+		background-color:#07AB6F;
+	}
+	.mars{
+	background-color:#892718;
+	}
+	.jupiter{
+	background-color:#E7C7B7;
+	}
+	.saturn
+	{
+	background-color:#EEE895;
+	}
+	.uranus{
+	background-color:#1FB9D8;
+	}
+	.neptune{
+	background-color:#1FB9D8;
+	}
+	.pluto
+	{
+	background-color:#E7C7B7;
+	}
+	.moon{
+	position:absolute;
+	top:-7px;
+	width:5px;
+	height:5px;
+	border-radius:50%;
+	background-color:white;
+	}
+	.moon-orbit{
+	position:absolute;
+	top:-5px;
+	width:30px;
+	height:10px;
+	border-radius:50%;
+	border-bottom-width:2px;
+	background-color:transparent;
+	border-color:transparent;
+	animation:spin 10s linear 0s infinite;
+	}
+	@keyframes spin{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(359deg);}
+	}

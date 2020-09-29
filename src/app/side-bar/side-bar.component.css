@@ -1,0 +1,43 @@
+.side{
+	top:400px;
+	position:absolute;
+	}
+	span
+	{
+	color:#2EFEF7;
+	margin:10px;
+	font-size:20px;
+	position: relative;
+	top:50px;
+	left:1020px;
+	align:left;
+	font-family: Monotype Corsiva;
+	padding-bottom:100px;
+	font-weight: bold;
+	}
+	span:hover+div{
+	display: block;
+	
+	}
+	span:hover{
+	color: #0B615E;
+	}
+	.abc{
+	 background-color:transparent;
+	 color:#aaa ;
+	 border : solid #596B80 1px;
+	 padding:5px;
+	 margin:2px;
+	 width:200px;
+	 font-size:20px;
+	 position:absolute;
+	 display:none;
+	 left:1100px;
+	 animation: mymove 1s ease-in;
+	 padding: 20px;
+	 display: none;
+	}
+	@keyframes mymove{
+	from {left: 1090px;}
+  to {left:1100 px;}
+	}
