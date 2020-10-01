@@ -14,7 +14,10 @@
 	font-family: Monotype Corsiva;
 	padding-bottom:100px;
 	font-weight: bold;
+<<<<<<< HEAD
 	cursor: pointer;
+=======
+>>>>>>> 470af8aaac88620f3b73778226d24c3dbcaa80a6
 	}
 	span:hover+div{
 	display: block;
